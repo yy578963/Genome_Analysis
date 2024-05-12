@@ -1,0 +1,27 @@
+[bwa_index] Pack FASTA... 0.07 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 4.58 seconds elapse.
+[bwa_index] Update BWT... 0.06 sec
+[bwa_index] Pack forward-only FASTA... 0.05 sec
+[bwa_index] Construct SA from BWT and Occ... 1.95 sec
+[main] Version: 0.7.18-r1243-dirty
+[main] CMD: bwa index /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413065_pilon.fasta
+[main] Real time: 6.946 sec; CPU: 6.720 sec
+[bwa_index] Pack FASTA... 0.09 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 5.87 seconds elapse.
+[bwa_index] Update BWT... 0.07 sec
+[bwa_index] Pack forward-only FASTA... 0.05 sec
+[bwa_index] Construct SA from BWT and Occ... 2.21 sec
+[main] Version: 0.7.18-r1243-dirty
+[main] CMD: bwa index /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413071_pilon.fasta
+[main] Real time: 8.545 sec; CPU: 8.300 sec
+[bwa_index] Pack FASTA... 0.07 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 4.93 seconds elapse.
+[bwa_index] Update BWT... 0.06 sec
+[bwa_index] Pack forward-only FASTA... 0.05 sec
+[bwa_index] Construct SA from BWT and Occ... 1.77 sec
+[main] Version: 0.7.18-r1243-dirty
+[main] CMD: bwa index /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413080_pilon.fasta
+[main] Real time: 7.108 sec; CPU: 6.894 sec

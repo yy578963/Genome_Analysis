@@ -1,0 +1,324 @@
+/sw/bioinfo/quast/5.0.2/snowy/bin/quast.py /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413065_pilon.fasta -r /home/yute2303/Genome_Analysis/reference/HP126_genome.fasta -o /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.118.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2024-05-09 14:01:41
+
+Logging to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/yute2303/Genome_Analysis/code/assembly_evaluation/QUAST
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/yute2303/Genome_Analysis/reference/HP126_genome.fasta ==> HP126_genome
+
+Contigs:
+  Pre-processing...
+  /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413065_pilon.fasta ==> SRR24413065_pilon
+
+2024-05-09 14:01:43
+Running Basic statistics processor...
+  Reference genome:
+    HP126_genome.fasta, length = 9619655, num fragments = 2, GC % = 71.93
+  Contig files: 
+    SRR24413065_pilon
+  Calculating N50 and L50...
+    SRR24413065_pilon, N50 = 6996047, L50 = 1, Total length = 8772076, GC % = 72.00, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/basic_stats/GC_content_plot.pdf
+  Drawing SRR24413065_pilon GC content plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/basic_stats/SRR24413065_pilon_GC_content_plot.pdf
+Done.
+
+2024-05-09 14:01:47
+Running Contig analyzer...
+  SRR24413065_pilon
+  Logging to files /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/contigs_reports/contigs_report_SRR24413065_pilon.stdout and contigs_report_SRR24413065_pilon.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2024-05-09 14:01:54
+Running NA-NGA calculation...
+  SRR24413065_pilon, Largest alignment = 6996047, NA50 = 6996047, NGA50 = 6996047, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/aligned_stats/NGAx_plot.pdf
+Done.
+
+2024-05-09 14:01:56
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  SRR24413065_pilon
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-05-09 14:02:00
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2024-05-09 14:02:02
+RESULTS:
+  Text versions of total report are saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/report.html
+  PDF version (tables and plots) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/report.pdf
+  Icarus (contig browser) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/icarus.html
+  Log is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413065/quast.log
+
+Finished: 2024-05-09 14:02:02
+Elapsed time: 0:00:21.032601
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/sw/bioinfo/quast/5.0.2/snowy/bin/quast.py /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413071_pilon.fasta -r /home/yute2303/Genome_Analysis/reference/R7_genome.fasta -o /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.118.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2024-05-09 14:02:03
+
+Logging to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/yute2303/Genome_Analysis/code/assembly_evaluation/QUAST
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/yute2303/Genome_Analysis/reference/R7_genome.fasta ==> R7_genome
+
+Contigs:
+  Pre-processing...
+  /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413071_pilon.fasta ==> SRR24413071_pilon
+
+2024-05-09 14:02:04
+Running Basic statistics processor...
+  Reference genome:
+    R7_genome.fasta, length = 9660595, num fragments = 2, GC % = 71.88
+  Contig files: 
+    SRR24413071_pilon
+  Calculating N50 and L50...
+    SRR24413071_pilon, N50 = 9368035, L50 = 1, Total length = 9660608, GC % = 71.88, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/basic_stats/GC_content_plot.pdf
+  Drawing SRR24413071_pilon GC content plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/basic_stats/SRR24413071_pilon_GC_content_plot.pdf
+Done.
+
+2024-05-09 14:02:08
+Running Contig analyzer...
+  SRR24413071_pilon
+  Logging to files /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/contigs_reports/contigs_report_SRR24413071_pilon.stdout and contigs_report_SRR24413071_pilon.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2024-05-09 14:02:15
+Running NA-NGA calculation...
+  SRR24413071_pilon, Largest alignment = 9368035, NA50 = 9368035, NGA50 = 9368035, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/aligned_stats/NGAx_plot.pdf
+Done.
+
+2024-05-09 14:02:17
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  SRR24413071_pilon
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-05-09 14:02:21
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2024-05-09 14:02:23
+RESULTS:
+  Text versions of total report are saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/report.html
+  PDF version (tables and plots) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/report.pdf
+  Icarus (contig browser) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/icarus.html
+  Log is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413071/quast.log
+
+Finished: 2024-05-09 14:02:23
+Elapsed time: 0:00:20.764040
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/sw/bioinfo/quast/5.0.2/snowy/bin/quast.py /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413080_pilon.fasta -r /home/yute2303/Genome_Analysis/reference/DV3_genome.fasta -o /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.118.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2024-05-09 14:02:24
+
+Logging to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/yute2303/Genome_Analysis/code/assembly_evaluation/QUAST
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/yute2303/Genome_Analysis/reference/DV3_genome.fasta ==> DV3_genome
+
+Contigs:
+  Pre-processing...
+  /home/yute2303/Genome_Analysis/DNA_data/polished_data/SRR24413080_pilon.fasta ==> SRR24413080_pilon
+
+2024-05-09 14:02:25
+Running Basic statistics processor...
+  Reference genome:
+    DV3_genome.fasta, length = 10838897, num fragments = 2, GC % = 72.03
+  Contig files: 
+    SRR24413080_pilon
+  Calculating N50 and L50...
+    SRR24413080_pilon, N50 = 7007930, L50 = 1, Total length = 8783891, GC % = 72.00, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/basic_stats/GC_content_plot.pdf
+  Drawing SRR24413080_pilon GC content plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/basic_stats/SRR24413080_pilon_GC_content_plot.pdf
+Done.
+
+2024-05-09 14:02:29
+Running Contig analyzer...
+  SRR24413080_pilon
+  Logging to files /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/contigs_reports/contigs_report_SRR24413080_pilon.stdout and contigs_report_SRR24413080_pilon.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2024-05-09 14:02:36
+Running NA-NGA calculation...
+  SRR24413080_pilon, Largest alignment = 7007930, NA50 = 7007930, NGA50 = 7007930, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/aligned_stats/NGAx_plot.pdf
+Done.
+
+2024-05-09 14:02:37
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  SRR24413080_pilon
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-05-09 14:02:42
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2024-05-09 14:02:44
+RESULTS:
+  Text versions of total report are saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/report.html
+  PDF version (tables and plots) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/report.pdf
+  Icarus (contig browser) is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/icarus.html
+  Log is saved to /home/yute2303/Genome_Analysis/DNA_data/assembly_evaluation/QUAST_result/SRR24413080/quast.log
+
+Finished: 2024-05-09 14:02:44
+Elapsed time: 0:00:20.384977
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

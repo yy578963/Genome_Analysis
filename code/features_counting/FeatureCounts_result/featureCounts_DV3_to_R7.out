@@ -1,0 +1,162 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR24516456.bam                                  ||
+||                                                                            ||
+||             Output file : SRR24516456.count                                ||
+||                 Summary : SRR24516456.count.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : SRR24413071_prokka_filtered.gff (GTF)            ||
+||      Dir for temp files : /home/yute2303/Genome_Analysis/RNA_data/feat ... ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file SRR24413071_prokka_filtered.gff ...                   ||
+||    Features : 8412                                                         ||
+||    Meta-features : 8412                                                    ||
+||    Chromosomes/contigs : 2                                                 ||
+||                                                                            ||
+|| Process BAM file SRR24516456.bam...                                        ||
+||    Strand specific : stranded                                              ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 17657120                                             ||
+||    Successfully assigned alignments : 234845 (1.3%)                        ||
+||    Running time : 0.39 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/yute2303/Genome_A  ||
+|| nalysis/RNA_data/features_counting_result/FeatureCounts_result/SRR2451645  ||
+|| 6.count.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR24516457.bam                                  ||
+||                                                                            ||
+||             Output file : SRR24516457.count                                ||
+||                 Summary : SRR24516457.count.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : SRR24413071_prokka_filtered.gff (GTF)            ||
+||      Dir for temp files : /home/yute2303/Genome_Analysis/RNA_data/feat ... ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file SRR24413071_prokka_filtered.gff ...                   ||
+||    Features : 8412                                                         ||
+||    Meta-features : 8412                                                    ||
+||    Chromosomes/contigs : 2                                                 ||
+||                                                                            ||
+|| Process BAM file SRR24516457.bam...                                        ||
+||    Strand specific : stranded                                              ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 14448856                                             ||
+||    Successfully assigned alignments : 171212 (1.2%)                        ||
+||    Running time : 0.32 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/yute2303/Genome_A  ||
+|| nalysis/RNA_data/features_counting_result/FeatureCounts_result/SRR2451645  ||
+|| 7.count.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR24516458.bam                                  ||
+||                                                                            ||
+||             Output file : SRR24516458.count                                ||
+||                 Summary : SRR24516458.count.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : SRR24413071_prokka_filtered.gff (GTF)            ||
+||      Dir for temp files : /home/yute2303/Genome_Analysis/RNA_data/feat ... ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file SRR24413071_prokka_filtered.gff ...                   ||
+||    Features : 8412                                                         ||
+||    Meta-features : 8412                                                    ||
+||    Chromosomes/contigs : 2                                                 ||
+||                                                                            ||
+|| Process BAM file SRR24516458.bam...                                        ||
+||    Strand specific : stranded                                              ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 12855239                                             ||
+||    Successfully assigned alignments : 248766 (1.9%)                        ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/yute2303/Genome_A  ||
+|| nalysis/RNA_data/features_counting_result/FeatureCounts_result/SRR2451645  ||
+|| 8.count.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+

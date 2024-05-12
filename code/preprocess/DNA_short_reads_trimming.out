@@ -1,0 +1,28 @@
+trimmomatic/0.39 loaded, see 'module help trimmomatic/0.39' for more information.
+TrimmomaticPE: Started with arguments:
+ /home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/SRR24413065_1.fastq.gz /home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/SRR24413065_2.fastq.gz -baseout /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413065_trim.fq.gz ILLUMINACLIP:/home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Multiple cores found: Using 2 threads
+Using templated Output files: /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413065_trim_1P.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413065_trim_1U.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413065_trim_2P.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413065_trim_2U.fq.gz
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1183170 Both Surviving: 1127716 (95.31%) Forward Only Surviving: 52986 (4.48%) Reverse Only Surviving: 805 (0.07%) Dropped: 1663 (0.14%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ /home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/SRR24413071_1.fastq.gz /home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/SRR24413071_2.fastq.gz -baseout /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413071_trim.fq.gz ILLUMINACLIP:/home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Multiple cores found: Using 2 threads
+Using templated Output files: /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413071_trim_1P.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413071_trim_1U.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413071_trim_2P.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413071_trim_2U.fq.gz
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1433028 Both Surviving: 1352445 (94.38%) Forward Only Surviving: 75907 (5.30%) Reverse Only Surviving: 903 (0.06%) Dropped: 3773 (0.26%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ /home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/SRR24413080_1.fastq.gz /home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/SRR24413080_2.fastq.gz -baseout /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413080_trim.fq.gz ILLUMINACLIP:/home/yute2303/Genome_Analysis/DNA_data/raw_data/short_reads/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Multiple cores found: Using 2 threads
+Using templated Output files: /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413080_trim_1P.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413080_trim_1U.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413080_trim_2P.fq.gz /home/yute2303/Genome_Analysis/DNA_data/preprocessed_data/SRR24413080_trim_2U.fq.gz
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1073650 Both Surviving: 1015542 (94.59%) Forward Only Surviving: 55808 (5.20%) Reverse Only Surviving: 680 (0.06%) Dropped: 1620 (0.15%)
+TrimmomaticPE: Completed successfully
